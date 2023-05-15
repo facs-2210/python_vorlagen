@@ -1,0 +1,97 @@
+root
+├── item_0
+│   ├── id: 1
+│   ├── scantype: nmap
+│   ├── args: nmap -sV -oX output.json sann.ch
+│   ├── start: 1520760090
+│   ├── status
+│   │   ├── state: 4
+│   │   ├── reason: secscan
+│   │   └── depr: False
+│   └── host
+│       ├── status: 19
+│       ├── reason: syn-ack
+│       ├── reason_ttl: 0
+│       ├── address: 81.177.6.213
+│       ├── ipv4: True
+│       ├── hostname
+│       │   └── item_0
+│       │       ├── name: sann.ch
+│       │       └── type: PTR
+│       └── port
+│           └── item_0
+│               ├── protocol: tcp
+│               ├── portid: 21
+│               └── service: ftp
+├── item_1
+│   ├── id: 2
+│   ├── scantype: nmap
+│   ├── args: nmap -sV -oX output.json sann.ch
+│   ├── start: 1520760113
+│   ├── status
+│   │   ├── state: 2
+│   │   ├── reason: secscan
+│   │   └── depr: True
+│   └── host
+│       ├── status: 3
+│       ├── reason: syn-ack
+│       ├── reason_ttl: 4
+│       ├── address: 81.177.6.213
+│       ├── ipv4: True
+│       ├── hostname
+│       │   └── item_0
+│       │       ├── name: srv36-h-st.sann.ch
+│       │       └── type: user
+│       └── port
+│           └── item_0
+│               ├── protocol: tcp
+│               ├── portid: 80
+│               └── service: http
+├── item_2
+│   ├── id: 3
+│   ├── scantype: nmap
+│   ├── args: nmap -sV -oX output.json sann.ch
+│   ├── start: 1520760221
+│   ├── status
+│   │   ├── state: 5
+│   │   ├── reason: secscan
+│   │   └── depr: False
+│   └── host
+│       ├── status: 5
+│       ├── reason: syn-ack
+│       ├── reason_ttl: 4
+│       ├── address: 81.177.6.213
+│       ├── ipv4: True
+│       ├── hostname
+│       │   └── item_0
+│       │       ├── name: sann.ch
+│       │       └── type: admin
+│       └── port
+│           └── item_0
+│               ├── protocol: tcp
+│               ├── portid: 21
+│               └── service: ftp
+└── item_3
+    ├── id: 4
+    ├── scantype: nmap
+    ├── args: nmap -sV -oX output.json sann.ch
+    ├── start: 1520760300
+    ├── status
+    │   ├── state: 5
+    │   ├── reason: secscan
+    │   └── depr: False
+    └── host
+        ├── status: 5
+        ├── reason: syn-ack
+        ├── reason_ttl: 4
+        ├── address: 81.177.6.213
+        ├── ipv4: True
+        ├── hostname
+        │   └── item_0
+        │       ├── name: srv-x037.sann.ch
+        │       └── type: PTR
+        └── port
+            └── item_0
+                ├── protocol: tcp
+                ├── portid: 80
+                └── service: http
