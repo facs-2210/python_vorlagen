@@ -30,4 +30,4 @@ def analyse_json(json_file):
     G.draw('output.pdf')
 
 # usage
-analyse_json('output.json')
+analyse_json('input.json')
