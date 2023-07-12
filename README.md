@@ -11,6 +11,7 @@ Beispiele:
 - [ ] Anwenden von MD5 für Kennwort
 - [ ] Anwenden von SHA256 für geheime Nachricht
 - [ ] Faker usw...
+
 Übungen:
 - [ ] Mit Python eine Datenbank-Tabelle auslesen und in CSV exportieren
 - [ ] Mit Python eine Datenbank-Tabelle auslesen und in JSON exportieren
@@ -29,7 +30,5 @@ Beispiele:
 - [ ] Datensätze aus einer Tabelle auslesen und in einer Quasi-Tabelle anonymisieren
 - [ ] Eine fremde CSV-Datei analysieren, anonymisieren und in eine Datenbank schreiben
 - [ ] Eine fremde CSV-Datei analysieren, anonymisieren und in eine andere CSV-Datei schreiben
-
-Zusätzliche Übungen
 - [ ] HTTP-Api ansprechen
 - [ ] Bestimmte Regex-Pattern ablegen
