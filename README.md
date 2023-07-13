@@ -17,7 +17,7 @@ Beispiele:
 - [ ] Mit Python eine Datenbank-Tabelle auslesen und in JSON exportieren
 - [ ] Mit Python den exportieren CSV und/oder JSON-Inhalt mit unterschiedlichen Methoden anonymisieren und pseudonymisieren
     - [ ] bspw. nur Initialen statt Vorname+Nachname
-    - [ ] Fake-Adressen
+    - [x] Fake-Adressen
     - [ ] Postleitzahl anonymisieren bspw. statt 5643 -> 5600
     - [ ] Telefonnummern anonymisieren bspw. statt 079 123 45 67 -> 079 123 4X XX
     - [ ] Email-Adressen anonymisieren
