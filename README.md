@@ -8,8 +8,8 @@ Ideen für Prüfung mit Python
 - [ ] Grafische Aufbereitung mit pandas/matplotlib/seaborn von Logfiles
 - [ ] Grafische Aufbereitung mit pandas/matplotlib/seaborn von Datenbanken
 Beispiele:
-- [ ] Anwenden von MD5 für Kennwort
-- [ ] Anwenden von SHA256 für geheime Nachricht
+- [X] Anwenden von MD5 für Kennwort
+- [X] Anwenden von SHA256 für geheime Nachricht
 - [ ] Faker usw...
 
 Übungen:
@@ -30,5 +30,9 @@ Beispiele:
 - [ ] Datensätze aus einer Tabelle auslesen und in einer Quasi-Tabelle anonymisieren
 - [ ] Eine fremde CSV-Datei analysieren, anonymisieren und in eine Datenbank schreiben
 - [ ] Eine fremde CSV-Datei analysieren, anonymisieren und in eine andere CSV-Datei schreiben
-- [ ] HTTP-Api ansprechen
+- [X] HTTP-Api ansprechen
 - [ ] Bestimmte Regex-Pattern ablegen
+- [ ] Database-Connectors:
+    - [x] Mysql
+    - [ ] MariaDB
+    - [ ] SQLite
