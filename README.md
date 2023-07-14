@@ -19,7 +19,7 @@ Beispiele:
     - [ ] bspw. nur Initialen statt Vorname+Nachname
     - [x] Fake-Adressen
     - [ ] Postleitzahl anonymisieren bspw. statt 5643 -> 5600
-    - [ ] Telefonnummern anonymisieren bspw. statt 079 123 45 67 -> 079 123 4X XX
+    - [x] Telefonnummern anonymisieren bspw. statt 079 123 45 67 -> 079 123 4X XX
     - [ ] Email-Adressen anonymisieren
     - [ ] Zufällige Wohnadresse
     - [ ] bis auf die letzten 5 Nummern die Kreditkartennummer anonymisieren bspw. 5200 1749 4758 7712 -> XXXX XXXX XXXX 7712
