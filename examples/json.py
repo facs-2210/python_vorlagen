@@ -1,6 +1,7 @@
 # For questions: @author Sandro
-# script to demonstrate http requests in python
+# script to demonstrate json in python
 
+from collections import OrderedDict
 import json
 
 
@@ -65,7 +66,35 @@ data = [
     ]
 
 # Convert dictionary to JSON string
-json_string = json.dumps(data)
 
-# Print the JSON string
+json_string = json.dumps(data)
+## Output: 
+#[{"name": "Peter", "lastname": "Gryffin"}, {"name": "Homer", "lastname": "Simpson"}]
+
+
+json_string = json.dumps(data, indent=4)
+## Output: 
+# [
+#     {
+#         "name": "Peter",
+#         "lastname": "Gryffin"
+#     },
+#     {
+#         "name": "Homer",
+#         "lastname": "Simpson"
+#     }
+# ]
+
+
+##############
+### Inline ###
+##############
+data = { "1": 500, "2": 200}
+## Output:
+# {
+#     "1": 500,
+#     "2": 200
+# }
+json_string = json.dumps(data, indent=4)
+
 print(json_string)

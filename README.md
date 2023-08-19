@@ -13,8 +13,8 @@ Beispiele:
 - [ ] Faker usw...
 
 Übungen:
-- [ ] Mit Python eine Datenbank-Tabelle auslesen und in CSV exportieren
-- [ ] Mit Python eine Datenbank-Tabelle auslesen und in JSON exportieren
+- [X] Mit Python eine Datenbank-Tabelle auslesen und in CSV exportieren
+- [X] Mit Python eine Datenbank-Tabelle auslesen und in JSON exportieren
 - [ ] Mit Python den exportieren CSV und/oder JSON-Inhalt mit unterschiedlichen Methoden anonymisieren und pseudonymisieren
     - [ ] bspw. nur Initialen statt Vorname+Nachname
     - [x] Fake-Adressen
@@ -32,6 +32,9 @@ Beispiele:
 - [ ] Eine fremde CSV-Datei analysieren, anonymisieren und in eine andere CSV-Datei schreiben
 - [X] HTTP-Api ansprechen
 - [ ] Bestimmte Regex-Pattern ablegen
+    - [X] Common Log Format
+    - [ ] Weitere Webserver logs
+    - [ ] ...
 - [ ] Database-Connectors:
     - [x] Mysql
     - [ ] MariaDB
